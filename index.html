@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NYT Search</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<div class=container>
+		
+		<section class="formSection">
+
+			<h3>Search Parameters</h3>
+
+			<form>
+				Search Term: <br>
+				<input type="text" name="searchTerm"> <br>
+
+				Number of Records to Retrieve: <br>
+				<input type="number" min="1" name="recordsRetrieved"> <br>
+				
+				Start Year(Optional): <br>
+				<input type="number" max="4" name="startYear"> <br>
+
+				End Year (Optional):
+				<input type="number" max="4" name="">
+
+				<button id="search"><img src="assets/images/lupa.png"> Search</button>
+
+				<button id="results">Clear Results</button>
+			</form>
+
+		</section>
+
+
+		<section class="articlesSection">
+
+			<h3>Top Articles</h3>
+			
+		</section>
+		
+	</div>
+
+
+
+
+	<footer>This Bootcamp's Coolest Team</footer>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
