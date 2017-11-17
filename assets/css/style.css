@@ -1,0 +1,37 @@
+body {background-color: #EAE6E5;
+
+}
+
+h3 {background-color: #114B5F;
+	color: #F6F7EB;
+	padding: 10px 20px;
+	border-radius: 25px;
+}
+
+/*Form Section*/
+.container {background-color: #F6F7EB;
+	margin: 30px 100px;
+	border-radius: 25px;
+}
+
+.formSection{border-radius: 25px;
+
+}
+
+img {width: 10px;
+	height: auto;
+
+}
+
+form {padding: 10px 20px;
+	line-height: 25px;
+}
+
+/*Article Section*/
+.articlesSection{
+	margin-top: 100px;
+}
+
+footer {text-align: center;
+
+}
