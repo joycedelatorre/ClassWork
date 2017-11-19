@@ -5,6 +5,9 @@
   
   var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?=" + article_search + "&apikey=6e741a59e1244940bfdc0b372e710931";
 
+
+console.log(article_search)
+
     $.ajax({
       url: queryURL,
       method: "GET"
@@ -13,3 +16,4 @@
     });
 
   });
+ 
