@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Employee Data</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap CDN-->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+</head>
+<body>
+
+	<div class="row" id="container">
+		<div class="col-lg-12">
+			
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="jumbotron jumbotron-fluid">
+					  <div class="container">
+					    <h1 class="display-3">Employee Database</h1>
+					  </div>
+					</div>
+				</div>
+			</div>
+				
+			<div class="row">
+				<input class="form-control form-control-sm input" type="text" placeholder="Name">
+				<input class="form-control form-control-sm input" type="text" placeholder="Pay">
+				<input class="form-control form-control-sm input" type="text" placeholder="Role">
+				<input class="form-control form-control-sm input" type="text" placeholder="Start date">
+				
+			</div>
+
+			<div class="row">
+				<table class="table table-striped">
+				  <thead>
+				    <tr>
+				      <th scope="col">Name</th>
+				      <th scope="col">Pay</th>
+				      <th scope="col">Role</th>
+				      <th scope="col">Start Date</th>
+				      <th scope="col">Payed so far</th>
+				      <th scope="col">Has workd for this long</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <td>Tom Hanks</td>
+				      <td>$250</td>
+				      <td>Scavanger</td>
+				      <td> 12/12/2010 </td>
+				      <td> formula </td>
+				      <td> formula </td>
+				    </tr>
+				    <tr>
+				      <td>Barbra</td>
+				      <td>Streisand</td>
+				      <td>Singer</td>
+				      <td>01/23/1920</td>
+				      <td> formula </td>
+				      <td> formula </td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+
+			
+		</div>
+	</div>
+
+
+
+
+	<!-- Script -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
